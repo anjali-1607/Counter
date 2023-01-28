@@ -1,0 +1,99 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#eeaeca,#94bbe9);
+   /* display: flex;
+   justify-content: center;
+   align-items: center;*/
+   display: grid;
+   place-items: center;
+} 
+.child_div{
+    width: 30vw;
+    height: 50vh;
+    background-color:beige;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+.child_div h2{
+    width: 12px;
+    height: 15px;
+    text-align: center;
+}
+.counter_value{
+    width: 123px;
+    height: 127px;
+    text-align: center;
+    font-size: 110px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 10%;
+    left: 43%;
+
+
+}
+.buttons{
+    height: 50px;
+    width: 260px;
+    position: relative;
+    bottom: 130%;
+    left: 30px;
+    /* display: grid; */
+    place-items: center;
+
+}
+.decrement{
+    height: 50px;
+    width: 100px;
+    background-color:beige;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(108, 108, 108);
+    border: 1px solid #191c2130;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+.decrement:hover{
+    color: rgb(18, 18, 18);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+ .increment{
+    position: relative;
+
+    right: 0;
+    height: 50px;
+    width: 100px;
+    background-color:beige;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+    border: 1px solid #191c2130;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: 500;
+  
+}
+
+.increment:hover{
+    color: rgb(18, 18, 18);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+  
